@@ -1,0 +1,38 @@
+$bg-black: #222;
+$color-text: #fff;
+$accent-color: #ffbb33;
+
+.footer {
+  background-color: $bg-black;
+  color: $color-text;
+  padding: 3em;
+  text-align: center;
+}
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social_list {
+  li {
+    margin: 0 1em;
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  svg {
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+}
+
+.copy_right {
+  margin-top: 2em;
+  span {
+    font-weight: bold;
+    color: $accent-color;
+  }
+}

@@ -1,0 +1,27 @@
+$bg-color: #222;
+$text-color: #fff;
+$accent-color: #ffbb33;
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: $bg-color;
+  padding: 1em;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
